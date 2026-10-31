@@ -1,7 +1,6 @@
 [English](README.md) | 中文
 
-<!-- 第一次在 Zenodo 發布後，在此加上 DOI 徽章，例如
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23833970.svg)](https://doi.org/10.5281/zenodo.23833970)
 
 # 可學習螞蟻：自我生成的狀態詞元作為記憶
 
@@ -105,7 +104,7 @@ pred = M.free_run_multi(dual, held_out[:100], [0])[0]
 
 本儲存庫已包含重新產生所有圖表所需的資料：教師語料（`results/la2/corpus.pkl`，10,783 個回合）、所有訓練好的權重、彙整結果（`r1_*.json`、`r3_colony.json`）、逐蟻群結果（`r2_per_seed.csv`，700 個蟻群）與產量曲線（`r2_delivery_curves.csv`）。
 
-可由腳本重建的中間檔因為較大（解壓後約 160 MB），不納入 Git 追蹤：每個方法、每個種子的逐回合預測（`results/la2/r1/*.pkl`）、蟻群的原始紀錄（`results/la2/r2_jobs/*.pkl`），以及雜訊教師語料（`results/la2/corpus_f*.pkl`）。它們以 `learnable-ants-state-tokens-large-data.zip`（5 MB）附在 GitHub release，並一同存檔於 Zenodo（見「引用」）；在儲存庫根目錄解壓即可還原，腳本會直接使用而不重算。
+可由腳本重建的中間檔因為較大（解壓後約 160 MB），不納入 Git 追蹤：每個方法、每個種子的逐回合預測（`results/la2/r1/*.pkl`）、蟻群的原始紀錄（`results/la2/r2_jobs/*.pkl`），以及雜訊教師語料（`results/la2/corpus_f*.pkl`）。它們以 `learnable-ants-state-tokens-large-data.zip`（5 MB）附在 [v1.0.0 release](https://github.com/PierreChingHanChen/learnable-ants-state-tokens/releases/tag/v1.0.0)；在儲存庫根目錄解壓即可還原，腳本會直接使用而不重算。
 
 ## 授權
 
@@ -114,9 +113,9 @@ pred = M.free_run_multi(dual, held_out[:100], [0])[0]
 
 ## 引用
 
-如使用本程式或資料，請引用存檔的版本（DOI 會在第一次 Zenodo 發布後補上）：
+如使用本程式或資料，請引用存檔的版本：
 
-> Chen, C.-H. (2026). *Learnable ants: Self-generated state tokens as memory (code and data)* (v1.0.0). Zenodo. https://doi.org/[待補]
+> Chen, C.-H. (2026). *Learnable ants: Self-generated state tokens as memory (code and data)* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23833970
 
 機器可讀的引用資訊見 [CITATION.cff](CITATION.cff)。關於群體層級協調的姊妹研究見 [learnable-ants-cwc](https://github.com/PierreChingHanChen/learnable-ants-cwc)。
 

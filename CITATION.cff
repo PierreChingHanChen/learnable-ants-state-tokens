@@ -16,6 +16,7 @@ authors:
 license: MIT
 version: "1.0.0"
 date-released: "2026-10-31"
+doi: "10.5281/zenodo.23833970"
 repository-code: "https://github.com/PierreChingHanChen/learnable-ants-state-tokens"
 keywords:
   - ant foraging

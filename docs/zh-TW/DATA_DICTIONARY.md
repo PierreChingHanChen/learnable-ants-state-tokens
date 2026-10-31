@@ -2,7 +2,7 @@
 
 # 資料字典
 
-`results/la2/` 中的所有檔案，以及寫出它們的步驟（見 [EXPERIMENTS.md](EXPERIMENTS.md)）。標示 **（封存）** 的檔案不在 Git 儲存庫中，而在大型資料封存 `learnable-ants-state-tokens-large-data.zip`（附在 GitHub release，並存檔於 Zenodo）；在儲存庫根目錄解壓即可放到正確位置。
+`results/la2/` 中的所有檔案，以及寫出它們的步驟（見 [EXPERIMENTS.md](EXPERIMENTS.md)）。標示 **（封存）** 的檔案不在 Git 儲存庫中，而在大型資料封存 `learnable-ants-state-tokens-large-data.zip`（附在 v1.0.0 GitHub release）；在儲存庫根目錄解壓即可放到正確位置。
 
 Pickle 檔（`.pkl`）以 Python 的 `pickle` 模組寫出。請只載入來自本儲存庫或其封存的檔案。
 

@@ -10,8 +10,8 @@ Attribution 4.0 International License (CC BY 4.0):
   miat_ants/foraging/weights/   baseline model weights and their metadata
   docs/, README.md, README.zh-TW.md, miat_ants/la2/README.md
 
-The same license applies to the large-data archive released with this
-repository at Zenodo.
+The same license applies to the large-data archive attached to the GitHub
+releases of this repository.
 
 You are free to share and adapt this material for any purpose, including
 commercially, provided that you give appropriate credit, provide a link to the
@@ -23,6 +23,6 @@ Summary:           https://creativecommons.org/licenses/by/4.0/
 All source code in this repository is licensed separately under the MIT
 License (see LICENSE).
 
-本儲存庫中的資料、圖表、模型權重與文件（上列路徑），以及在 Zenodo 與本儲存庫一同
-發布的大型資料封存，以創用 CC 姓名標示 4.0 國際授權條款（CC BY 4.0）釋出；程式碼
+本儲存庫中的資料、圖表、模型權重與文件（上列路徑），以及附在本儲存庫
+GitHub release 的大型資料封存，以創用 CC 姓名標示 4.0 國際授權條款（CC BY 4.0）釋出；程式碼
 另以 MIT 授權釋出（見 LICENSE）。

@@ -2,7 +2,7 @@ English | [中文](../zh-TW/DATA_DICTIONARY.md)
 
 # Data dictionary
 
-All files in `results/la2/`, with the step that writes them (see [EXPERIMENTS.md](EXPERIMENTS.md)). Files marked **(archive)** are not in the Git repository; they are in the large-data archive `learnable-ants-state-tokens-large-data.zip`, attached to the GitHub release and archived at Zenodo. Unzipping it in the repository root puts them in place.
+All files in `results/la2/`, with the step that writes them (see [EXPERIMENTS.md](EXPERIMENTS.md)). Files marked **(archive)** are not in the Git repository; they are in the large-data archive `learnable-ants-state-tokens-large-data.zip`, attached to the v1.0.0 GitHub release. Unzipping it in the repository root puts them in place.
 
 Pickle files (`.pkl`) are written with Python's `pickle` module. Load only files from this repository or its archive.
 
