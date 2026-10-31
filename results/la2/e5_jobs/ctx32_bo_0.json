@@ -1,0 +1,1 @@
+{"action_nll": 0.45854224113864966, "action_acc": 0.8027235447347381, "mode": "bo", "ctx_steps": 32, "n_embd": 16, "n_params": 5504, "train_eps": 9705, "seconds": 237.5, "config": "ctx32", "seed": 0}

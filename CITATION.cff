@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below. The article reference will be added on publication."
+title: "Learnable ants: Self-generated state tokens as memory (code and data)"
+abstract: >-
+  Simulation platform, teacher corpus, trained models, per-seed results and
+  figures for the study "Self-Generated State Tokens as Memory in Learnable
+  Foraging Agents", in which small transformer ants speak their own control
+  state in a 44-token foraging language and are compared with a
+  parameter-matched GRU and a finite-state Bayesian filter, offline and in
+  colonies that keep learning from their own successful trips.
+type: software
+authors:
+  - family-names: Chen
+    given-names: Ching-Han
+    affiliation: "Department of Computer Science and Information Engineering, National Central University, Taiwan"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-01"
+repository-code: "https://github.com/PierreChingHanChen/learnable-ants-state-tokens"
+keywords:
+  - ant foraging
+  - stigmergy
+  - transformer agents
+  - interpretability
+  - inner speech
+  - memory
+  - continual learning

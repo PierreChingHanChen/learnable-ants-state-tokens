@@ -1,0 +1,112 @@
+[
+ {
+  "action_nll": 0.46086400502147795,
+  "action_acc": 0.8059231779245951,
+  "mode": "bo",
+  "ctx_steps": 16,
+  "n_embd": 16,
+  "n_params": 4992,
+  "train_eps": 9705,
+  "seconds": 114.7
+ },
+ {
+  "action_nll": 0.464986777495963,
+  "action_acc": 0.8067937897259561,
+  "mode": "bo",
+  "ctx_steps": 16,
+  "n_embd": 16,
+  "n_params": 4992,
+  "train_eps": 9705,
+  "seconds": 116.2
+ },
+ {
+  "action_nll": 0.46236237505869326,
+  "action_acc": 0.8061894341981869,
+  "mode": "bo",
+  "ctx_steps": 16,
+  "n_embd": 16,
+  "n_params": 4992,
+  "train_eps": 9705,
+  "seconds": 105.4
+ },
+ {
+  "action_nll": 0.47375556068698027,
+  "action_acc": 0.8052470357790327,
+  "mode": "bo",
+  "ctx_steps": 16,
+  "n_embd": 16,
+  "n_params": 4992,
+  "train_eps": 9705,
+  "seconds": 106.8
+ },
+ {
+  "action_nll": 0.4643862884720231,
+  "action_acc": 0.8010335917312662,
+  "mode": "bo",
+  "ctx_steps": 16,
+  "n_embd": 16,
+  "n_params": 4992,
+  "train_eps": 9705,
+  "seconds": 102.5
+ },
+ {
+  "action_nll": 0.4598675456204018,
+  "action_acc": 0.8054855046789354,
+  "state_nll": 0.008499295990650448,
+  "state_acc": 0.9966861882828619,
+  "mode": "dual",
+  "ctx_steps": 16,
+  "n_embd": 16,
+  "n_params": 5248,
+  "train_eps": 9705,
+  "seconds": 172.9
+ },
+ {
+  "action_nll": 0.4645672543707997,
+  "action_acc": 0.8050432426800042,
+  "state_nll": 0.006233897249814641,
+  "state_acc": 0.9974158591226425,
+  "mode": "dual",
+  "ctx_steps": 16,
+  "n_embd": 16,
+  "n_params": 5248,
+  "train_eps": 9705,
+  "seconds": 220.6
+ },
+ {
+  "action_nll": 0.46058547045215903,
+  "action_acc": 0.8061477545066167,
+  "state_nll": 0.008421966218653147,
+  "state_acc": 0.9962905074502448,
+  "mode": "dual",
+  "ctx_steps": 16,
+  "n_embd": 16,
+  "n_params": 5248,
+  "train_eps": 9705,
+  "seconds": 224.2
+ },
+ {
+  "action_nll": 0.47291427891881194,
+  "action_acc": 0.8045177019733689,
+  "state_nll": 0.006550538726948926,
+  "state_acc": 0.9972076934297444,
+  "mode": "dual",
+  "ctx_steps": 16,
+  "n_embd": 16,
+  "n_params": 5248,
+  "train_eps": 9705,
+  "seconds": 191.0
+ },
+ {
+  "action_nll": 0.4644549589068252,
+  "action_acc": 0.801804617821122,
+  "state_nll": 0.007246791879989276,
+  "state_acc": 0.9973118279569892,
+  "mode": "dual",
+  "ctx_steps": 16,
+  "n_embd": 16,
+  "n_params": 5248,
+  "train_eps": 9705,
+  "seconds": 189.9
+ }
+]

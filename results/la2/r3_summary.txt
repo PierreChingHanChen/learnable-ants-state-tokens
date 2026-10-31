@@ -1,0 +1,200 @@
+== barrier
+  aux_frozen         n=10 delivered  1251.9 [1088, 1390]  occ_σ=0.147 timeouts=25.500
+  bo_frozen          n=10 delivered  1214.7 [1063, 1338]  timeouts=29.200
+  dual_frozen        n=10 delivered  1187.1 [1052, 1309]  occ_σ=0.062 timeouts=38.700
+  teacher            n=10 delivered  1261.0 [1096, 1402]  occ_σ=0.052 timeouts=26.100
+== decay_fast
+  aux_frozen         n=10 delivered  2570.9 [2529, 2609]  occ_σ=0.146 timeouts=3.700
+  bo_frozen          n=10 delivered  2678.7 [2624, 2744]  timeouts=3.700
+  dual_frozen        n=10 delivered  2617.9 [2574, 2664]  occ_σ=0.156 timeouts=2.900
+  teacher            n=10 delivered  2659.7 [2604, 2716]  occ_σ=0.151 timeouts=3.400
+== decay_slow
+  aux_frozen         n=10 delivered  2737.8 [2652, 2824]  occ_σ=0.165 timeouts=1.600
+  bo_frozen          n=10 delivered  2640.3 [2562, 2711]  timeouts=1.200
+  dual_frozen        n=10 delivered  2684.5 [2599, 2769]  occ_σ=0.169 timeouts=1.200
+  teacher            n=10 delivered  2685.3 [2603, 2768]  occ_σ=0.174 timeouts=1.100
+== double_bridge
+  aux_frozen         n=20 delivered   995.0 [983, 1006]  occ_σ=0.017 timeouts=9.300
+  aux_learn          n=20 delivered  1032.3 [1016, 1049]  practiced_sigma=0.008 occ_σ=0.011 timeouts=9.950
+  bo_frozen          n=20 delivered  1005.6 [997, 1015]  timeouts=7.150
+  bo_learn           n=20 delivered  1028.0 [1008, 1049]  timeouts=10.400
+  dual_frozen        n=20 delivered   999.6 [992, 1007]  occ_σ=0.007 timeouts=9.850
+  dual_learn         n=20 delivered  1031.4 [1018, 1045]  practiced_sigma=0.003 occ_σ=0.007 timeouts=9.600
+  teacher            n=20 delivered   979.9 [972, 987]  occ_σ=0.004 timeouts=9.000
+== food_fast
+  aux_frozen         n=10 delivered  1673.1 [1645, 1698]  occ_σ=0.226 timeouts=12.300
+  aux_learn          n=10 delivered  1609.8 [1589, 1632]  practiced_sigma=0.130 occ_σ=0.231 timeouts=18.600
+  bo_frozen          n=10 delivered  1698.7 [1674, 1724]  timeouts=11.300
+  bo_learn           n=10 delivered  1658.9 [1623, 1692]  timeouts=17.000
+  dual_frozen        n=10 delivered  1695.3 [1667, 1720]  occ_σ=0.240 timeouts=10.900
+  dual_learn         n=10 delivered  1605.8 [1564, 1646]  practiced_sigma=0.120 occ_σ=0.212 timeouts=20.100
+  dual_learn_reh     n=10 delivered  1659.6 [1623, 1691]  practiced_sigma=0.106 occ_σ=0.224 timeouts=14.600
+  teacher            n=10 delivered  1713.1 [1672, 1767]  occ_σ=0.248 timeouts=11.300
+== food_slow
+  aux_frozen         n=10 delivered  3287.5 [3207, 3352]  occ_σ=0.084 timeouts=1.100
+  aux_learn          n=10 delivered  3251.6 [3163, 3329]  practiced_sigma=0.036 occ_σ=0.072 timeouts=4.500
+  bo_frozen          n=10 delivered  3351.8 [3268, 3462]  timeouts=1.200
+  bo_learn           n=10 delivered  3287.1 [3163, 3407]  timeouts=2.800
+  dual_frozen        n=10 delivered  3252.6 [3181, 3330]  occ_σ=0.082 timeouts=1.600
+  dual_learn         n=10 delivered  3260.8 [3173, 3350]  practiced_sigma=0.031 occ_σ=0.071 timeouts=4.100
+  dual_learn_reh     n=10 delivered  3278.6 [3212, 3353]  practiced_sigma=0.040 occ_σ=0.084 timeouts=2.400
+  teacher            n=10 delivered  3331.5 [3281, 3389]  occ_σ=0.086 timeouts=0.600
+== two_patch
+  aux_frozen         n=20 delivered  2668.7 [2632, 2706]  stab_σ=1.000 stab_all=0.995 occ_σ=0.158 timeouts=3.250
+  aux_learn          n=20 delivered  2529.1 [2495, 2570]  stab_σ=0.922 stab_all=0.969 practiced_sigma=0.070 occ_σ=0.151 timeouts=6.350
+  bo_frozen          n=20 delivered  2673.1 [2641, 2705]  timeouts=2.750
+  bo_learn           n=20 delivered  2584.9 [2545, 2626]  timeouts=7.100
+  dual_frozen        n=20 delivered  2692.8 [2644, 2741]  stab_σ=1.000 stab_all=0.995 occ_σ=0.165 timeouts=2.500
+  dual_learn         n=20 delivered  2512.5 [2472, 2551]  stab_σ=0.892 stab_all=0.955 practiced_sigma=0.066 occ_σ=0.143 timeouts=10.350
+  dual_learn_A       n=20 delivered  2528.5 [2480, 2576]  stab_σ=0.843 stab_all=0.955 occ_σ=0.137 timeouts=10.500
+  dual_learn_reh     n=20 delivered  2580.6 [2538, 2621]  stab_σ=0.981 stab_all=0.980 practiced_sigma=0.066 occ_σ=0.161 timeouts=5.100
+  dual_learn_rehNS   n=20 delivered  2598.7 [2561, 2641]  stab_σ=0.919 stab_all=0.963 practiced_sigma=0.049 occ_σ=0.145 timeouts=5.600
+  dual_learn_rehS    n=20 delivered  2619.8 [2590, 2649]  stab_σ=0.998 stab_all=0.987 practiced_sigma=0.147 occ_σ=0.164 timeouts=3.850
+  dual_learn_sigma   n=20 delivered  2454.1 [2406, 2501]  stab_σ=0.927 stab_all=0.953 practiced_sigma=0.258 occ_σ=0.150 timeouts=11.700
+  dual_learn_step    n=20 delivered  2532.7 [2488, 2579]  stab_σ=0.883 stab_all=0.961 practiced_sigma=0.130 occ_σ=0.136 timeouts=7.850
+  teacher            n=20 delivered  2699.4 [2656, 2749]  occ_σ=0.163 timeouts=1.850
+  teacher_nomem      n=20 delivered  1737.0 [1689, 1783]  occ_σ=0.000 timeouts=6.500
+== paired delivered
+  barrier       bo_frozen         − teacher          -46.3 [-297.4, +203.6] (-3.7%) p=0.49 holm=1 n=10
+  barrier       aux_frozen        − teacher           -9.1 [-183.3, +188.6] (-0.7%) p=0.43 holm=1 n=10
+  barrier       dual_frozen       − teacher          -73.9 [-272.5, +103.9] (-5.9%) p=0.7 holm=1 n=10
+  barrier       dual_frozen       − bo_frozen        -27.6 [-212.9, +142.5] (-2.3%) p=0.92 holm=1 n=10
+  barrier       dual_frozen       − aux_frozen       -64.8 [-248.2, +114.3] (-5.2%) p=0.7 holm=1 n=10
+  decay_fast    bo_frozen         − teacher          +19.0 [-43.9, +74.2] (+0.7%) p=0.54 holm=1 n=10
+  decay_fast    aux_frozen        − teacher          -88.8 [-164.9, -12.5] (-3.3%) p=0.037 holm=0.19 n=10
+  decay_fast    dual_frozen       − teacher          -41.8 [-133.3, +54.7] (-1.6%) p=0.62 holm=1 n=10
+  decay_fast    dual_frozen       − bo_frozen        -60.8 [-160.6, +23.5] (-2.3%) p=0.32 holm=1 n=10
+  decay_fast    dual_frozen       − aux_frozen       +47.0 [-14.3, +110.8] (+1.8%) p=0.32 holm=1 n=10
+  decay_slow    bo_frozen         − teacher          -45.0 [-131.1, +49.6] (-1.7%) p=0.43 holm=1 n=10
+  decay_slow    aux_frozen        − teacher          +52.5 [-15.4, +125.8] (+2.0%) p=0.32 holm=1 n=10
+  decay_slow    dual_frozen       − teacher           -0.8 [-120.7, +121.3] (-0.0%) p=1 holm=1 n=10
+  decay_slow    dual_frozen       − bo_frozen        +44.2 [-63.6, +143.7] (+1.7%) p=0.38 holm=1 n=10
+  decay_slow    dual_frozen       − aux_frozen       -53.3 [-165.4, +63.0] (-1.9%) p=0.56 holm=1 n=10
+  double_bridge bo_learn          − teacher          +48.1 [+24.4, +72.9] (+4.9%) p=0.0012 holm=0.006 n=20
+  double_bridge aux_learn         − teacher          +52.5 [+31.9, +74.3] (+5.4%) p=0.00034 holm=0.0024 n=20
+  double_bridge dual_learn        − teacher          +51.5 [+35.4, +67.0] (+5.3%) p=1.9e-05 holm=0.00015 n=20
+  double_bridge bo_learn          − bo_frozen        +22.4 [+5.5, +40.7] (+2.2%) p=0.014 holm=0.041 n=20
+  double_bridge aux_learn         − aux_frozen       +37.4 [+22.1, +53.4] (+3.8%) p=0.00034 holm=0.0024 n=20
+  double_bridge dual_learn        − dual_frozen      +31.8 [+15.8, +47.1] (+3.2%) p=0.0032 holm=0.013 n=20
+  double_bridge dual_learn        − bo_learn          +3.4 [-18.5, +26.1] (+0.3%) p=0.97 holm=1 n=20
+  double_bridge dual_learn        − aux_learn         -0.9 [-20.1, +19.1] (-0.1%) p=0.72 holm=1 n=20
+  food_fast     bo_frozen         − teacher          -14.4 [-80.9, +36.7] (-0.8%) p=1 holm=1 n=10
+  food_fast     aux_frozen        − teacher          -40.0 [-88.5, +7.6] (-2.3%) p=0.19 holm=1 n=10
+  food_fast     dual_frozen       − teacher          -17.8 [-85.4, +41.8] (-1.0%) p=0.83 holm=1 n=10
+  food_fast     dual_frozen       − bo_frozen         -3.4 [-29.2, +21.2] (-0.2%) p=0.76 holm=1 n=10
+  food_fast     dual_frozen       − aux_frozen       +22.2 [-23.3, +69.1] (+1.3%) p=0.5 holm=1 n=10
+  food_fast     bo_learn          − bo_frozen        -39.8 [-85.5, +6.1] (-2.3%) p=0.23 holm=1 n=10
+  food_fast     aux_learn         − aux_frozen       -63.3 [-96.9, -22.4] (-3.8%) p=0.02 holm=0.21 n=10
+  food_fast     dual_learn        − dual_frozen      -89.5 [-137.7, -36.4] (-5.3%) p=0.037 holm=0.37 n=10
+  food_fast     dual_learn        − bo_learn         -53.1 [-112.4, +1.3] (-3.2%) p=0.16 holm=1 n=10
+  food_fast     dual_learn_reh    − dual_learn       +53.8 [+17.7, +91.0] (+3.4%) p=0.049 holm=0.44 n=10
+  food_fast     dual_learn_reh    − dual_frozen      -35.7 [-81.9, +11.3] (-2.1%) p=0.22 holm=1 n=10
+  food_slow     bo_frozen         − teacher          +20.3 [-91.9, +144.8] (+0.6%) p=1 holm=1 n=10
+  food_slow     aux_frozen        − teacher          -44.0 [-166.0, +43.5] (-1.3%) p=0.92 holm=1 n=10
+  food_slow     dual_frozen       − teacher          -78.9 [-175.7, +30.0] (-2.4%) p=0.23 holm=1 n=10
+  food_slow     dual_frozen       − bo_frozen        -99.2 [-250.1, +35.5] (-3.0%) p=0.28 holm=1 n=10
+  food_slow     dual_frozen       − aux_frozen       -34.9 [-135.9, +68.2] (-1.1%) p=0.56 holm=1 n=10
+  food_slow     bo_learn          − bo_frozen        -64.7 [-209.2, +86.5] (-1.9%) p=0.56 holm=1 n=10
+  food_slow     aux_learn         − aux_frozen       -35.9 [-155.6, +84.1] (-1.1%) p=0.51 holm=1 n=10
+  food_slow     dual_learn        − dual_frozen       +8.2 [-136.8, +151.6] (+0.3%) p=1 holm=1 n=10
+  food_slow     dual_learn        − bo_learn         -26.3 [-151.2, +95.1] (-0.8%) p=0.77 holm=1 n=10
+  food_slow     dual_learn_reh    − dual_learn       +17.8 [-97.9, +124.8] (+0.5%) p=0.77 holm=1 n=10
+  food_slow     dual_learn_reh    − dual_frozen      +26.0 [-79.5, +131.8] (+0.8%) p=0.7 holm=1 n=10
+  two_patch     bo_learn          − teacher         -114.5 [-183.6, -54.6] (-4.2%) p=0.0023 holm=0.04 n=20
+  two_patch     aux_learn         − teacher         -170.3 [-229.9, -117.3] (-6.3%) p=8.8e-05 holm=0.0022 n=20
+  two_patch     dual_learn        − teacher         -186.9 [-254.7, -123.8] (-6.9%) p=0.00024 holm=0.0049 n=20
+  two_patch     bo_frozen         − teacher          -26.4 [-84.5, +27.1] (-1.0%) p=0.48 holm=1 n=20
+  two_patch     aux_frozen        − teacher          -30.8 [-91.0, +26.5] (-1.1%) p=0.34 holm=1 n=20
+  two_patch     dual_frozen       − teacher           -6.6 [-81.3, +63.0] (-0.2%) p=0.65 holm=1 n=20
+  two_patch     bo_learn          − bo_frozen        -88.1 [-135.2, -42.5] (-3.3%) p=0.0025 holm=0.04 n=20
+  two_patch     aux_learn         − aux_frozen      -139.6 [-199.3, -84.4] (-5.2%) p=0.00052 holm=0.01 n=20
+  two_patch     dual_learn        − dual_frozen     -180.3 [-256.1, -116.3] (-6.7%) p=0.00021 holm=0.0047 n=20
+  two_patch     dual_learn        − bo_learn         -72.5 [-131.8, -14.9] (-2.8%) p=0.036 holm=0.36 n=20
+  two_patch     dual_learn        − aux_learn        -16.6 [-85.4, +37.0] (-0.7%) p=0.85 holm=1 n=20
+  two_patch     aux_learn         − bo_learn         -55.9 [-108.2, -8.8] (-2.2%) p=0.052 holm=0.47 n=20
+  two_patch     dual_learn_A      − dual_learn       +16.0 [-23.6, +53.6] (+0.6%) p=0.32 holm=1 n=20
+  two_patch     dual_learn_A      − dual_frozen     -164.3 [-238.4, -96.6] (-6.1%) p=0.0001 holm=0.0025 n=20
+  two_patch     dual_learn_step   − dual_learn       +20.2 [-41.5, +83.1] (+0.8%) p=0.63 holm=1 n=20
+  two_patch     dual_learn_sigma  − dual_learn       -58.5 [-99.8, -17.8] (-2.3%) p=0.027 holm=0.29 n=20
+  two_patch     dual_learn_reh    − dual_learn       +68.1 [+25.6, +113.2] (+2.7%) p=0.01 holm=0.14 n=20
+  two_patch     dual_learn_step   − dual_frozen     -160.1 [-223.2, -99.7] (-5.9%) p=0.00013 holm=0.0031 n=20
+  two_patch     dual_learn_sigma  − dual_frozen     -238.8 [-297.2, -184.0] (-8.9%) p=1.9e-06 holm=5.1e-05 n=20
+  two_patch     dual_learn_reh    − dual_frozen     -112.2 [-167.1, -57.0] (-4.2%) p=0.0017 holm=0.032 n=20
+  two_patch     teacher_nomem     − teacher         -962.4 [-1037.0, -892.0] (-35.7%) p=1.9e-06 holm=5.1e-05 n=20
+  two_patch     dual_learn_rehNS  − dual_learn       +86.2 [+39.7, +135.8] (+3.4%) p=0.0051 holm=0.077 n=20
+  two_patch     dual_learn_rehS   − dual_learn      +107.3 [+52.2, +163.7] (+4.3%) p=0.002 holm=0.036 n=20
+  two_patch     dual_learn_rehNS  − dual_learn_reh    +18.1 [-31.7, +69.9] (+0.7%) p=0.56 holm=1 n=20
+  two_patch     dual_learn_rehS   − dual_learn_reh    +39.2 [-17.5, +94.0] (+1.5%) p=0.17 holm=1 n=20
+  two_patch     dual_learn_rehNS  − dual_frozen      -94.1 [-158.8, -29.9] (-3.5%) p=0.017 holm=0.22 n=20
+  two_patch     dual_learn_rehS   − dual_frozen      -73.0 [-130.8, -12.1] (-2.7%) p=0.024 holm=0.29 n=20
+== paired stability (two_patch)
+  stab_all         dual_learn        − dual_frozen   -0.0397 [-0.0459, -0.0342] p=1.9e-06
+  stab_σ           dual_learn        − dual_frozen   -0.1076 [-0.1322, -0.0845] p=1.9e-06
+  occ_σ            dual_learn        − dual_frozen   -0.0218 [-0.0295, -0.0145] p=3.6e-05
+  practiced_sigma  dual_learn        − dual_frozen   +nan [+nan, +nan] p=nan
+  timeouts         dual_learn        − dual_frozen   +7.8500 [+5.6500, +10.1000] p=9.7e-05
+  stab_all         dual_learn_step   − dual_learn    +0.0056 [-0.0002, +0.0115] p=0.076
+  stab_σ           dual_learn_step   − dual_learn    -0.0094 [-0.0429, +0.0237] p=0.78
+  occ_σ            dual_learn_step   − dual_learn    -0.0074 [-0.0129, -0.0018] p=0.027
+  practiced_sigma  dual_learn_step   − dual_learn    +0.0644 [+0.0583, +0.0708] p=1.9e-06
+  timeouts         dual_learn_step   − dual_learn    -2.5000 [-4.8500, -0.2500] p=0.084
+  stab_all         dual_learn_sigma  − dual_learn    -0.0023 [-0.0083, +0.0040] p=0.5
+  stab_σ           dual_learn_sigma  − dual_learn    +0.0342 [+0.0121, +0.0597] p=0.0073
+  occ_σ            dual_learn_sigma  − dual_learn    +0.0069 [-0.0013, +0.0155] p=0.13
+  practiced_sigma  dual_learn_sigma  − dual_learn    +0.1922 [+0.1856, +0.1988] p=1.9e-06
+  timeouts         dual_learn_sigma  − dual_learn    +1.3500 [-0.9500, +3.7000] p=0.32
+  stab_all         dual_learn_reh    − dual_learn    +0.0244 [+0.0188, +0.0308] p=1.9e-06
+  stab_σ           dual_learn_reh    − dual_learn    +0.0890 [+0.0659, +0.1138] p=1.9e-06
+  occ_σ            dual_learn_reh    − dual_learn    +0.0186 [+0.0115, +0.0257] p=0.0001
+  practiced_sigma  dual_learn_reh    − dual_learn    +0.0006 [-0.0039, +0.0048] p=0.6
+  timeouts         dual_learn_reh    − dual_learn    -5.2500 [-7.1500, -3.4500] p=0.00038
+  stab_all         dual_learn_A      − dual_learn    -0.0002 [-0.0069, +0.0063] p=0.9
+  stab_σ           dual_learn_A      − dual_learn    -0.0494 [-0.0745, -0.0254] p=0.0014
+  occ_σ            dual_learn_A      − dual_learn    -0.0054 [-0.0132, +0.0022] p=0.23
+  practiced_sigma  dual_learn_A      − dual_learn    +nan [+nan, +nan] p=nan
+  timeouts         dual_learn_A      − dual_learn    +0.1500 [-1.9000, +2.0000] p=0.8
+  stab_all         aux_learn         − aux_frozen    -0.0256 [-0.0277, -0.0237] p=1.9e-06
+  stab_σ           aux_learn         − aux_frozen    -0.0772 [-0.0872, -0.0681] p=1.9e-06
+  occ_σ            aux_learn         − aux_frozen    -0.0072 [-0.0155, +0.0006] p=0.15
+  practiced_sigma  aux_learn         − aux_frozen    +nan [+nan, +nan] p=nan
+  timeouts         aux_learn         − aux_frozen    +3.1000 [+2.0000, +4.1500] p=0.00044
+  stab_all         dual_learn_reh    − dual_frozen   -0.0153 [-0.0177, -0.0131] p=1.9e-06
+  stab_σ           dual_learn_reh    − dual_frozen   -0.0185 [-0.0273, -0.0108] p=8.8e-05
+  occ_σ            dual_learn_reh    − dual_frozen   -0.0033 [-0.0108, +0.0039] p=0.29
+  practiced_sigma  dual_learn_reh    − dual_frozen   +nan [+nan, +nan] p=nan
+  timeouts         dual_learn_reh    − dual_frozen   +2.6000 [+1.5000, +3.7000] p=0.0016
+  stab_all         dual_learn_step   − dual_frozen   -0.0341 [-0.0411, -0.0280] p=1.9e-06
+  stab_σ           dual_learn_step   − dual_frozen   -0.1170 [-0.1568, -0.0816] p=1.9e-06
+  occ_σ            dual_learn_step   − dual_frozen   -0.0292 [-0.0368, -0.0216] p=5.7e-06
+  practiced_sigma  dual_learn_step   − dual_frozen   +nan [+nan, +nan] p=nan
+  timeouts         dual_learn_step   − dual_frozen   +5.3500 [+3.7000, +7.2000] p=0.00016
+  stab_all         dual_learn_sigma  − dual_frozen   -0.0420 [-0.0467, -0.0373] p=1.9e-06
+  stab_σ           dual_learn_sigma  − dual_frozen   -0.0734 [-0.0987, -0.0503] p=1.9e-06
+  occ_σ            dual_learn_sigma  − dual_frozen   -0.0150 [-0.0228, -0.0077] p=0.0017
+  practiced_sigma  dual_learn_sigma  − dual_frozen   +nan [+nan, +nan] p=nan
+  timeouts         dual_learn_sigma  − dual_frozen   +9.2000 [+7.0000, +11.3500] p=0.0001
+  stab_all         dual_learn_rehNS  − dual_learn    +0.0083 [+0.0035, +0.0139] p=0.0042
+  stab_σ           dual_learn_rehNS  − dual_learn    +0.0268 [+0.0058, +0.0503] p=0.044
+  occ_σ            dual_learn_rehNS  − dual_learn    +0.0022 [-0.0048, +0.0094] p=0.62
+  practiced_sigma  dual_learn_rehNS  − dual_learn    -0.0167 [-0.0208, -0.0129] p=1.9e-06
+  timeouts         dual_learn_rehNS  − dual_learn    -4.7500 [-6.8000, -2.7000] p=0.00093
+  stab_all         dual_learn_rehS   − dual_learn    +0.0319 [+0.0272, +0.0370] p=1.9e-06
+  stab_σ           dual_learn_rehS   − dual_learn    +0.1061 [+0.0834, +0.1307] p=1.9e-06
+  occ_σ            dual_learn_rehS   − dual_learn    +0.0214 [+0.0125, +0.0298] p=0.00032
+  practiced_sigma  dual_learn_rehS   − dual_learn    +0.0818 [+0.0778, +0.0857] p=1.9e-06
+  timeouts         dual_learn_rehS   − dual_learn    -6.5000 [-8.8000, -4.3000] p=0.00024
+  stab_all         dual_learn_rehNS  − dual_learn_reh -0.0161 [-0.0223, -0.0110] p=1.9e-06
+  stab_σ           dual_learn_rehNS  − dual_learn_reh -0.0623 [-0.0917, -0.0370] p=2.7e-05
+  occ_σ            dual_learn_rehNS  − dual_learn_reh -0.0164 [-0.0241, -0.0087] p=0.001
+  practiced_sigma  dual_learn_rehNS  − dual_learn_reh -0.0173 [-0.0200, -0.0145] p=1.9e-06
+  timeouts         dual_learn_rehNS  − dual_learn_reh +0.5000 [-0.9000, +2.0000] p=0.65
+  stab_all         dual_learn_rehS   − dual_learn_reh +0.0074 [+0.0050, +0.0100] p=3.6e-05
+  stab_σ           dual_learn_rehS   − dual_learn_reh +0.0170 [+0.0097, +0.0249] p=3.6e-05
+  occ_σ            dual_learn_rehS   − dual_learn_reh +0.0028 [-0.0039, +0.0090] p=0.33
+  practiced_sigma  dual_learn_rehS   − dual_learn_reh +0.0812 [+0.0788, +0.0837] p=1.9e-06
+  timeouts         dual_learn_rehS   − dual_learn_reh -1.2500 [-2.4000, -0.1000] p=0.034
+  stab_all         bo_learn          − bo_frozen     +nan [+nan, +nan] p=nan
+  stab_σ           bo_learn          − bo_frozen     +nan [+nan, +nan] p=nan
+  occ_σ            bo_learn          − bo_frozen     +nan [+nan, +nan] p=nan
+  practiced_sigma  bo_learn          − bo_frozen     +nan [+nan, +nan] p=nan
+  timeouts         bo_learn          − bo_frozen     +4.3500 [+3.0000, +5.6500] p=0.00025
