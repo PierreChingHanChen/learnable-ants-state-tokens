@@ -15,7 +15,7 @@ authors:
     affiliation: "Department of Computer Science and Information Engineering, National Central University, Taiwan"
 license: MIT
 version: "1.0.0"
-date-released: "2026-11-01"
+date-released: "2026-10-31"
 repository-code: "https://github.com/PierreChingHanChen/learnable-ants-state-tokens"
 keywords:
   - ant foraging
